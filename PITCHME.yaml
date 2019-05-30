@@ -1,6 +1,6 @@
 # Theme-Override Setting
 # Doc: https://gitpitch.com/docs/settings/custom-theme
-# theme-override : PITCHME.css
+theme-override : PITCHME.css
 
 # Highlight (Code) Setting
 # Doc: https://gitpitch.com/docs/settings/highlight
