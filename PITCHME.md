@@ -1,4 +1,4 @@
-# JavaScriptの@color[orange](論理式)について
+### JavaScriptの@color[orange](論理式)について
 ---?color=lavender
 @title[よくある使い方]
 ```javascript
