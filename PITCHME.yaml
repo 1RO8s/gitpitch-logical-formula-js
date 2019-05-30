@@ -4,4 +4,5 @@ theme-override : PITCHME.css
 
 # Highlight (Code) Setting
 # Doc: https://gitpitch.com/docs/settings/highlight
-highlight : atom-one-dark
+# highlight : atom-one-dark
+highlight : monokai
