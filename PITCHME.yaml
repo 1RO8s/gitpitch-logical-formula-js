@@ -6,3 +6,6 @@ theme-override : PITCHME.css
 # Doc: https://gitpitch.com/docs/settings/highlight
 highlight : atom-one-dark
 # highlight : monokai
+
+slide-number: true
+transition : fade
