@@ -8,4 +8,4 @@ highlight : atom-one-dark
 # highlight : monokai
 
 slide-number: true
-transition : fade
+transition : slide
