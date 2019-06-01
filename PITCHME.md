@@ -25,13 +25,19 @@ var a = 1 && 2 && 3 && 4 && 5 && 0;
 console.log(a);
 ```
 ---
+
+左右の値どちらかがtruthyなら、trueを返す。
+左右の値どちらかがtruthyなら、trueを返す。-
+左側がtruthyな場合は左側の値を返す。
+
+---
 ```javascript
 var a = 0 || "こんにちは";
 console.log(a);
 ```
 
 
----?color=lavender
+---
 @title[よくある使い方]
 ```javascript
 var user = {};
