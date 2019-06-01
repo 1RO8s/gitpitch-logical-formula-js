@@ -7,12 +7,12 @@
 @snapend
 
 ---
-```
+```javascript
 var a = 1 !== 0;
 console.log(a);
 ```
 ---
-```
+```javascript
 if (0 || 1) {
     console.log("aaa");
 } else {
@@ -20,12 +20,12 @@ if (0 || 1) {
 }
 ```
 ---
-```
+```javascript
 var a = 1 && 2 && 3 && 4 && 5 && 0;
 console.log(a);
 ```
 ---
-```
+```javascript
 var a = 0 || "こんにちは";
 console.log(a);
 ```
