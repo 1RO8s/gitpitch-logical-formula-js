@@ -2,9 +2,10 @@
 ##### ~論理式が返すのは真偽値じゃない~
 ---
 
-@snap[south docslink span-50]
+@snap[docslink]
 @size[0.2em][3歳娘<br/>「いつから論理式が真偽値のみを返すと錯覚していた？」](https://qiita.com/Yametaro/items/17f9b2baa67440b8664a)
 @snapend
+
 ---
 ```
 var a = 1 !== 0;
