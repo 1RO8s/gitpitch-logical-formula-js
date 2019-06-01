@@ -25,13 +25,15 @@ var a = 1 && 2 && 3 && 4 && 5 && 0;
 console.log(a);
 ```
 ---
+@snap[east]
 AND演算子：</br>
 @css[fragment](左右の値どちらもtruthyなら、trueを返す。)</br>
 OR演算子：</br>
 @css[fragment](左右の値どちらかがtruthyなら、trueを返す。)
+@snapend
 
 @snap[south-west spa-20]
-@size[0.1em]※truthy ... Booleanに変換したとき、trueとみなされる値
+@size[0.05em]※truthy ... Booleanに変換したとき、trueとみなされる値
 @snapend
 
 @snap[midpoint fragment]
