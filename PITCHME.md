@@ -27,7 +27,9 @@ console.log(a);
 ---
 - 左右の値どちらかがtruthyなら、trueを返す。|
 - 左側がtruthyな場合は左側の値を返す。逆に、左側がfalsyな場合は右側の値を返す。|
-
+@snap[east fragment]
+@size[0.2em][3歳娘<br/>「いつから論理式が真偽値のみを返すと錯覚していた？」](https://qiita.com/Yametaro/items/17f9b2baa67440b8664a)
+@snapend
 ---
 ```javascript
 var a = 0 || "こんにちは";
