@@ -1,4 +1,4 @@
-# JavaScript***再入門***
+# JavaScript@color[orange](再入門)
 ##### ~論理式が返すのは真偽値じゃない~
 ---
 @[8-18](Without ever leaving your slideshow.)
