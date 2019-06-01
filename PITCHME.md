@@ -1,8 +1,8 @@
 # JavaScript@color[orange](再入門)
 ##### ~論理式が返すのは真偽値じゃない~
 ---
-[3歳娘<br/>「いつから論理式が真偽値のみを返すと錯覚していた？」](https://qiita.com/Yametaro/items/17f9b2baa67440b8664a)<br/>
----?color=#36454F
+@size[0.5em][3歳娘<br/>「いつから論理式が真偽値のみを返すと錯覚していた？」](https://qiita.com/Yametaro/items/17f9b2baa67440b8664a)<br/>
+---
 ```
 var a = 1 !== 0;
 console.log(a);
