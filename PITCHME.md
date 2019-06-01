@@ -26,12 +26,12 @@ console.log(a);
 ```
 ---
 AND演算子
-- 左右の値どちらもtruthyなら、trueを返す。|
-OR演算子
+- 左右の値どちらもtruthyなら、trueを返す。| </br>
+OR演算子</br>
 - 左右の値どちらかがtruthyなら、trueを返す。|
 
-@snap[north]
-※truthy ... Booleanに変換したとき、trueとみなされる値
+@snap[south ]
+@size[0.5em]※truthy ... Booleanに変換したとき、trueとみなされる値
 @snapend
 
 @snap[midpoint fragment]
