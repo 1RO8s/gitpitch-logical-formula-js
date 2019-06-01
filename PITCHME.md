@@ -1,7 +1,7 @@
-## JavaScript@color[red](再入門)
-#### 論理式が返すのは真偽値じゃない~
+### JavaScript***再入門***
+##### ~論理式が返すのは真偽値じゃない~
 ---
-[3歳娘「いつから論理式が真偽値のみを返すと錯覚していた？」](https://qiita.com/Yametaro/items/17f9b2baa67440b8664a)<br/>
+[3歳娘<br/>「いつから論理式が真偽値のみを返すと錯覚していた？」](https://qiita.com/Yametaro/items/17f9b2baa67440b8664a)<br/>
 ---
 ```
 var a = 1 !== 0;
