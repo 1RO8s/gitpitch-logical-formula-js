@@ -25,7 +25,9 @@ var a = 1 && 2 && 3 && 4 && 5 && 0;
 console.log(a);
 ```
 ---
+@box
 AND演算子
+@boxend
 - 左右の値どちらもtruthyなら、trueを返す。</br> |
 OR演算子</br>
 - 左右の値どちらかがtruthyなら、trueを返す。|
