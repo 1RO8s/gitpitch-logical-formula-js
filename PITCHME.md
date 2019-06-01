@@ -1,5 +1,5 @@
 ## JavaScript@color[orange](再入門)
-#### ~論理式が返すのは真偽値じゃない~
+##### ~論理式が返すのは真偽値じゃない~
 ---
 @size[0.5em][3歳娘<br/>「いつから論理式が真偽値のみを返すと錯覚していた？」](https://qiita.com/Yametaro/items/17f9b2baa67440b8664a)<br/>
 ---
