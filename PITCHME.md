@@ -25,8 +25,14 @@ var a = 1 && 2 && 3 && 4 && 5 && 0;
 console.log(a);
 ```
 ---
+AND演算子
+- 左右の値どちらもtruthyなら、trueを返す。|
+OR演算子
 - 左右の値どちらかがtruthyなら、trueを返す。|
-- 左側がtruthyな場合は左側の値を返す。逆に、左側がfalsyな場合は右側の値を返す。|
+
+@snap[north]
+※truthy ... Booleanに変換したとき、trueとみなされる値
+@snapend
 
 @snap[midpoint fragment]
 @fa[times fa-10x]
