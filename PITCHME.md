@@ -27,8 +27,7 @@ console.log(a);
 ---
 
 左右の値どちらかがtruthyなら、trueを返す。
-左右の値どちらかがtruthyなら、trueを返す。-
-左側がtruthyな場合は左側の値を返す。
+- 左側がtruthyな場合は左側の値を返す。逆に、左側がfalsyな場合は右側の値を返す。
 
 ---
 ```javascript
