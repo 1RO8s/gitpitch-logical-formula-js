@@ -32,7 +32,7 @@ OR演算子：</br>
 @css[fragment](左右の値どちらかがtruthyなら、trueを返す。)
 @snapend
 
-@snap[south-west span-50]
+@snap[south-west span-0]
 @size[0.05em]※truthy ... Booleanに変換したとき、trueとみなされる値
 @snapend
 
