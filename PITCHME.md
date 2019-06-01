@@ -25,6 +25,11 @@ var a = 1 && 2 && 3 && 4 && 5 && 0;
 console.log(a);
 ```
 ---
+@snap[north-east span-40 text-08]
+@box[](AND演算子 # 左右の値どちらもtruthyなら、trueを返す。)
+@snapend
+
+---
 @snap[west span-0]
 AND演算子：</br>
 @css[fragment](左右の値どちらもtruthyなら、trueを返す。)</br>
