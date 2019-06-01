@@ -1,5 +1,7 @@
-## JavaScriptの@color[red](再入門)
+## JavaScript@color[red](再入門)
 #### 論理式が返すのは真偽値じゃない~
+---
+[3歳娘「いつから論理式が真偽値のみを返すと錯覚していた？」](https://qiita.com/Yametaro/items/17f9b2baa67440b8664a)<br/>
 ---
 ```
 var a = 1 !== 0;
@@ -18,6 +20,7 @@ if (0 || 1) {
 var a = 1 && 2 && 3 && 4 && 5 && 0;
 console.log(a);
 ```
+---
 ```
 var a = 0 || "こんにちは";
 console.log(a);
