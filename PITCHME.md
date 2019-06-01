@@ -1,5 +1,5 @@
-### JavaScriptの@color[再入門](red)
-~論理式が返すのは真偽値じゃない~
+### JavaScriptの@color[再入門](orange)
+# 論理式が返すのは真偽値じゃない~
 ---
 ```
 var a = 1 !== 0;
