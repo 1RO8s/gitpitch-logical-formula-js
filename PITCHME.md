@@ -1,6 +1,7 @@
 ### JavaScript***再入門***
 ##### ~論理式が返すのは真偽値じゃない~
 ---
+@[8-18](Without ever leaving your slideshow.)
 [3歳娘<br/>「いつから論理式が真偽値のみを返すと錯覚していた？」](https://qiita.com/Yametaro/items/17f9b2baa67440b8664a)<br/>
 ---
 ```
