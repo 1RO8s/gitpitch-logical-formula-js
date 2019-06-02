@@ -107,11 +107,12 @@ console.log(a);
 
 ```javascript
 function func(n){
-  console.log(n + "回目の関数");                   
+  console.log(n + "回目の関数");
   return n==3;
 }
 
 func(1) ||func(2) ||func(3) ||func(4);
+                                                     // f
 ```
 @snap[midpoint span-0]
 @snapend
