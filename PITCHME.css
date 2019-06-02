@@ -1,7 +1,9 @@
+/* cancell Upper case  */
 .reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6 {
  text-transform: none;
 }
 
+/* for code present */
 .hljs {
   background: none;
 }
@@ -24,4 +26,11 @@
   .reveal pre code {
     max-height: 50vh !important;
   }
+}
+
+/* Quiz answer */
+#boxed-text {
+    font-size: 0.8em;
+    margin: 0;
+    padding: 0em 0em 0em 0em;
 }
