@@ -64,21 +64,40 @@ OR演算子：</br>
 
 ---
 ```javascript
-var a = 0 || "こんにちは";
-console.log(a);
+var a = "こんにちは" && "こんばんは";
+var b = 0 && "こんばんは";
+console.log("a -> "+a);
+console.log("b -> "+b);
 ```
 
++++
+```javascript
+var a = "こんにちは" || "こんばんは";
+var b = 0 || "こんばんは";
+console.log("a -> "+a);
+console.log("b -> "+b);
+```
 
 ---
 ```javascript
-var user = {};
-var name = user.name || "名無しさん";
+// デフォルト値の設定
+init:function(_name){
+  this.name = _name || "名無し";
+}
 ```
 ---
-#### 短絡評価（ショートサーキット評価）
 ```javascript
-var a = lightFunction() || heavyFunction();
+// パフォーマンスの良いコード
+var a = lightFunction() || normalFuction() || heavyFunction();
 ```
+
++++
+### 短絡評価
+ 返すべき値が途中で決まった場合、最後まで評価しない</br>
+ ANDの場合： falsyがあった時点で、
+ ORの場合：　truthyがあった時点で
++++
+
 ---
 
 ```javascript
@@ -122,10 +141,10 @@ function func(n){
 +++
 
 ```javascript
-// trueを返すまで、func(n)を実行
-func(1) ||
-func(2) ||
-func(3) ||
+// falseを返すまで、func(n)を実行
+func(1) &&
+func(2) &&
+func(3) &&
 func(4);
 
 function func(n){
