@@ -75,6 +75,12 @@ var user = {};
 var name = user.name || "名無しさん";
 ```
 ---
+#### 短絡評価（ショートサーキット評価）
+```javascript
+var a = lightFunction() || heavyFunction();
+```
+---
+
 ```javascript
 var a = 1 && 2 && 3 && 4 && 5 && 0;
 console.log(a);
