@@ -2,8 +2,10 @@
 ##### ~論理式が返すのは真偽値じゃない~
 ---
 
-![yametaro](https://qiita-image-store.s3.amazonaws.com/0/295452/profile-images/1554676443)
 @snap[midpoint span-100]
+
+![yametaro](https://qiita-image-store.s3.amazonaws.com/0/295452/profile-images/1554676443)</br>
+@size[0.5em](無職 やめ太郎</br>)
 @size[0.5em]([3歳娘<br/>「いつから論理式が真偽値のみを返すと錯覚していた？」](https://qiita.com/Yametaro/items/17f9b2baa67440b8664a))
 @snapend
 
@@ -102,11 +104,25 @@ console.log(a);
 ```
 
 ---
+```javascript
+// trueを返すまで、func(n)を実行
+func(1) ||
+func(2) ||
+func(3) ||
+func(4);
 
----
+function func(n){
+  console.log(n + "回目の関数");
+  return n==3;
+}
+```
+@box[north-east](① # 1回目の関数</br></br>)
+@box[east](② # 1回目の関数</br>2回目の関数</br>)
+@box[south-east](③ # 1回目の関数</br>2回目の関数</br>3回目の関数)
++++
 
 ```javascript
-
+// trueを返すまで、func(n)を実行
 func(1) ||
 func(2) ||
 func(3) ||
@@ -122,8 +138,10 @@ function func(n){
 @box[south-east](③ # 1回目の関数</br>2回目の関数</br>3回目の関数)
 
 ---
-
 ```
-
+// ■条件演算子もどき ex)条件?trueの処理:falseの処理;
+var isChild = true;
+var price = isChild && 200 || 100;
+console.log("price -> " + price);
 ```
 
