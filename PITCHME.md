@@ -116,9 +116,9 @@ func(1) ||func(2) ||func(3) ||func(4);
 @sap[midpoint]
 @snapend
 
-@box[south-east](① # 1回目の関数)
-@box[south](② # 1回目の関数</br>2回目の関数)
-@box[south-west](③ # 1回目の関数</br>2回目の関数</br>3回目の関数)
+@box[south-west](① # 1回目の関数</br></br>)
+@box[south](② # 1回目の関数</br>2回目の関数</br>)
+@box[south-east](③ # 1回目の関数</br>2回目の関数</br>3回目の関数)
 ---
 
 ```
