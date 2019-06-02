@@ -104,6 +104,7 @@ console.log(a);
 ---
 
 ---
+@snap[midpoint]
 ```javascript
 function func(n){
   console.log(n + "回目の関数");
@@ -112,6 +113,8 @@ function func(n){
 
 func(1) ||func(2) ||func(3) ||func(4);
 ```
+@snapend
+
 @box[south-east](title # 回目の関数</br>回目の関数)
 @box[south](title # sss)
 @box[south-west](title # sss)
