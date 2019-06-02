@@ -37,11 +37,8 @@ Note:
 true false だと思った方
 
 ---
-@snap[north-west span-0]
-AND演算子：</br>左右の値どちらもtruthyなら、trueを返す。</br>
-@snapend
-
 @snap[west span-0]
+AND演算子：</br>左右の値どちらもtruthyなら、trueを返す。</br>
 OR演算子：</br>左右の値どちらかがtruthyなら、trueを返す。
 @snapend
 
@@ -79,9 +76,16 @@ console.log(a);
 
 
 ---
-@title[よくある使い方]
 ```javascript
 var user = {};
 var name = user.name || "名無しさん";
 ```
+---
+```javascript
+function func(n){
+  console.log(n + "回目の関数");
+  return n==3;
+}
 
+func(1) ||func(2) ||func(3) ||func(4);
+```
