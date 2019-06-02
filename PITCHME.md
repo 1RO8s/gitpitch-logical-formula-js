@@ -45,7 +45,7 @@ OR演算子：</br>
 @snapend
 
 @snap[south-west span-0]
-@size[0.05em]※truthy ... Booleanに変換したとき、trueとみなされる値
+@size[0.05em](※truthy ... Booleanに変換したとき、trueとみなされる値)
 @snapend
 
 @snap[midpoint fragment]
