@@ -113,7 +113,7 @@ function func(n){
 
 func(1) ||func(2) ||func(3) ||func(4);
 ```
-@snap[midpoint]
+@snap[midpoint span-0]
 @snapend
 
 @box[south-west](① # 1回目の関数</br></br>)
