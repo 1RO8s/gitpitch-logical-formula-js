@@ -29,7 +29,7 @@ var a = 1 && 2 && 3 && 4 && 5 && 0;
 console.log(a);
 ```
 ---
-いつから論理式が真偽値のみを返すと錯覚していた？
+いつから</br>論理式が真偽値のみを返すと錯覚していた？
 
 Note:
 true false だと思った方
@@ -51,10 +51,10 @@ OR演算子：</br>
 
 ---
 @snap[west span-0]
-AND演算子：
-@css[fragment](@size[0.8em](左の値がfalsyなら左の値、truthyなら右の値を返す。</br>))
+AND演算子：</br>
+@css[fragment](@size[0.8em](　左の値がfalsyなら左の値、truthyなら右の値を返す。</br>))
 OR演算子：</br>
-@css[fragment](　左の値がtruthyなら左の値、falsyなら右の値を返す。</br>)
+@css[fragment](@size[0.8em](　左の値がtruthyなら左の値、falsyなら右の値を返す。</br>))
 @size[0.5em](</br>)
 @size[0.5em](※ truthy ... Booleanに変換したとき、trueとみなされる値。1、"false" など</br>)
 @size[0.5em](※ falsy ... Booleanに変換したとき、falseとみなされる値。0、null、udefined など</br>)
