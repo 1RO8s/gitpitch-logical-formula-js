@@ -114,6 +114,8 @@ function func(n){
 func(1) ||func(2) ||func(3) ||func(4);
                                                                                             // f
 ```
+
+@box[east](① # 1回目の関数</br></br>)
 @box[south-west](① # 1回目の関数</br></br>)
 @box[south](② # 1回目の関数</br>2回目の関数</br>)
 @box[south-east](③ # 1回目の関数</br>2回目の関数</br>3回目の関数)
