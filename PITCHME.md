@@ -112,7 +112,7 @@ function func(n){
 
 func(1) ||func(2) ||func(3) ||func(4);
 ```
-@box[south-east](title # sss)
+@box[south-east](title # 回目の関数</br>回目の関数)
 @box[south](title # sss)
 @box[south-west](title # sss)
 ---
