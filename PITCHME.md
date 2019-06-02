@@ -2,7 +2,8 @@
 ##### ~論理式が返すのは真偽値じゃない~
 ---
 
-@snap[docslink]
+![ss](https://qiita-image-store.s3.amazonaws.com/0/295452/profile-images/1554676443)
+@snap[]
 @size[0.2em][3歳娘<br/>「いつから論理式が真偽値のみを返すと錯覚していた？」](https://qiita.com/Yametaro/items/17f9b2baa67440b8664a)
 @snapend
 
@@ -36,9 +37,9 @@ console.log(a);
 ---
 @snap[west span-0]
 AND演算子：</br>
-\t@css[fragment](左右の値どちらもtruthyなら、trueを返す。)</br>
+@css[fragment](　左右の値どちらもtruthyなら、trueを返す。)</br>
 OR演算子：</br>
-\t@css[fragment](左右の値どちらかがtruthyなら、trueを返す。)
+@css[fragment](　左右の値どちらかがtruthyなら、trueを返す。)
 @snapend
 
 @snap[south-west span-0]
