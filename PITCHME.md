@@ -104,7 +104,7 @@ console.log(a);
 ---
 
 ---
-@snap[midpoint]
+
 ```javascript
 function func(n){
   console.log(n + "回目の関数");
@@ -113,11 +113,12 @@ function func(n){
 
 func(1) ||func(2) ||func(3) ||func(4);
 ```
+@sap[midpoint]
 @snapend
 
-@box[south-east](title # 回目の関数</br>回目の関数)
-@box[south](title # sss)
-@box[south-west](title # sss)
+@box[south-east](① # 1回目の関数)
+@box[south](② # 1回目の関数</br>2回目の関数)
+@box[south-west](③ # 1回目の関数</br>2回目の関数</br>3回目の関数)
 ---
 
 ```
