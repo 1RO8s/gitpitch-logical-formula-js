@@ -112,9 +112,9 @@ function func(n){
 
 func(1) ||func(2) ||func(3) ||func(4);
 ```
-@box[](title # sss)
-@box[](title # sss)
-@box[](title # sss)
+@box[south-east](title # sss)
+@box[south](title # sss)
+@box[south-west](title # sss)
 ---
 
 ```
