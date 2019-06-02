@@ -37,8 +37,18 @@ Note:
 true false だと思った方
 
 ---
-@snap[north-east span-40 text-08]
-@box[](AND演算子 # 左右の値どちらもtruthyなら、trueを返す。)
+@snap[west span-0]
+AND演算子：左右の値どちらもtruthyなら、trueを返す。)</br>
+OR演算子：左右の値どちらかがtruthyなら、trueを返す。)
+@snapend
+
+@snap[south-west span-0]
+@size[0.5em](※ truthy ... Booleanに変換したとき、trueとみなされる値。1、"false" など)</br>
+@size[0.5em](※ falsy ... Booleanに変換したとき、falseとみなされる値。0、null、udefined など)
+@snapend
+
+@snap[midpoint fragment]
+@fa[times fa-10x]
 @snapend
 
 ---
