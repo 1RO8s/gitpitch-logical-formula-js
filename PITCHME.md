@@ -37,9 +37,12 @@ Note:
 true false だと思った方
 
 ---
+@snap[north-west span-0]
+AND演算子：</br>左右の値どちらもtruthyなら、trueを返す。</br>
+@snapend
+
 @snap[west span-0]
-AND演算子：左右の値どちらもtruthyなら、trueを返す。)</br>
-OR演算子：左右の値どちらかがtruthyなら、trueを返す。)
+OR演算子：</br>左右の値どちらかがtruthyなら、trueを返す。
 @snapend
 
 @snap[south-west span-0]
