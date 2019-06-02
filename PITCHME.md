@@ -107,7 +107,7 @@ console.log(a);
 
 ```javascript
 function func(n){
-  console.log(n + "回目の関数");
+  console.log(n + "回目の関数");                   
   return n==3;
 }
 
