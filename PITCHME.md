@@ -115,11 +115,11 @@ func(4);
 function func(n){
   console.log(n + "回目の関数");
   return n==3;
-}                                                                                            // f
+}
 ```
-@box[north-west](① # 1回目の関数</br></br>)
-@box[west](② # 1回目の関数</br>2回目の関数</br>)
-@box[south-west](③ # 1回目の関数</br>2回目の関数</br>3回目の関数)
+@box[north-east](① # 1回目の関数</br></br>)
+@box[east](② # 1回目の関数</br>2回目の関数</br>)
+@box[south-east](③ # 1回目の関数</br>2回目の関数</br>3回目の関数)
 
 ---
 
