@@ -106,19 +106,20 @@ console.log(a);
 ---
 
 ```javascript
+
+func(1) ||
+func(2) ||
+func(3) ||
+func(4);
+
 function func(n){
   console.log(n + "回目の関数");
   return n==3;
-}
-
-func(1) ||func(2) ||func(3) ||func(4);
-                                                                                            // f
+}                                                                                            // f
 ```
-
-@box[east](① # 1回目の関数</br></br>)
-@box[south-west](① # 1回目の関数</br></br>)
-@box[south](② # 1回目の関数</br>2回目の関数</br>)
-@box[south-east](③ # 1回目の関数</br>2回目の関数</br>3回目の関数)
+@box[north-west](① # 1回目の関数</br></br>)
+@box[west](② # 1回目の関数</br>2回目の関数</br>)
+@box[south-west](③ # 1回目の関数</br>2回目の関数</br>3回目の関数)
 
 ---
 
