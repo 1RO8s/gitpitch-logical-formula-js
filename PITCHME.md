@@ -112,7 +112,7 @@ function func(n){
 }
 
 func(1) ||func(2) ||func(3) ||func(4);
-                                                     // f
+                                                                                            // f
 ```
 @snap[midpoint span-0]
 @snapend
