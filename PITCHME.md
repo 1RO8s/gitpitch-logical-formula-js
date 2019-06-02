@@ -37,7 +37,7 @@ true false だと思った方
 ---
 @snap[west span-0]
 AND演算子：</br>
-@css[fragment](　左右の値どちらもtruthyなら、trueを返す。)</br>
+@size[0.8em](　左右の値どちらもtruthyなら、trueを返す。)</br>
 OR演算子：</br>
 @css[fragment](　左右の値どちらかがtruthyなら、trueを返す。)</br>
 @size[0.5em](</br>)
