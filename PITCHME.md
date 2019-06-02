@@ -76,6 +76,29 @@ var name = user.name || "名無しさん";
 ```
 ---
 ```javascript
+var a = 1 && 2 && 3 && 4 && 5 && 0;
+console.log(a);
+```
++++
+```javascript
+var a = 2 && 3 && 4 && 5 && 0;
+console.log(a);
+```
+
++++
+```javascript
+var a = 3 && 4 && 5 && 0;
+console.log(a);
+```
+
++++
+```javascript
+var a = 5 && 0;
+console.log(a);
+```
+
+---
+```javascript
 function func(n){
   console.log(n + "回目の関数");
   return n==3;
