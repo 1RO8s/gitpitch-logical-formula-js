@@ -30,6 +30,11 @@ if (0 || 1) {
 var a = 1 && 2 && 3 && 4 && 5 && 0;
 console.log(a);
 ```
+---
+いつから論理式が真偽値のみを返すと錯覚していた？
+
+Note:
+true false だと思った方
 
 ---
 @snap[north-east span-40 text-08]
