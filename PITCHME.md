@@ -75,7 +75,10 @@ var user = {};
 var name = user.name || "名無しさん";
 ```
 ---
+@snap[north]
 #### 短絡評価（ショートサーキット評価）
+@snapend
+
 ```javascript
 var a = lightFunction() || heavyFunction();
 ```
