@@ -90,8 +90,18 @@ var a = lightFunction() || normalFuction() || heavyFunction();
 ```
 
 +++
+@snap[north]
 ### 短絡評価
- 返すべき値が途中で決まった場合、最後まで評価しない</br>
+@snapend
+@snap[west span-0]
+@size[0.9em](返すべき値が途中で決まった場合、最後まで評価しない</br></br>)
+@size[0.9em](　ANDの場合： falsyがあった時点で、その値を返す。</br>)
+@size[0.9em](　ORの場合：　truthyがあった時点で、その値を返す。</br>)
+
+@snapend
+
+
+
  ANDの場合： falsyがあった時点で、
  ORの場合：　truthyがあった時点で
 +++
