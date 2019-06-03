@@ -81,7 +81,7 @@ console.log("b -> " + b);
 ```
 
 ---
-### 
+#### 使い方 
 
 +++
 ```javascript
@@ -140,13 +140,6 @@ console.log("a -> " + a);
 ```javascript
 var a = 5 && 0;
 console.log("a -> " + a);
-```
----
-```
-// ■条件演算子もどき
-var isChild = true;
-var price = isChild && 200 || 100;
-console.log("price -> " + price);
 ```
 ---
 @snap[north]
