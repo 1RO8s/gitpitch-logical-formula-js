@@ -50,6 +50,10 @@ OR演算子：</br>
 @snapend
 
 ---
+@snap[north span-90]
+#### 正しくは...
+@snapend
+
 @snap[west span-0]
 AND演算子：</br>
 @css[fragment](@size[0.8em](　左の値がfalsyなら左の値、truthyなら右の値を返す。</br>))
@@ -137,45 +141,7 @@ console.log("a -> " + a);
 var a = 5 && 0;
 console.log("a -> " + a);
 ```
-
 ---
-
-
-+++
-```javascript
-// trueを返すまで、func(n)を実行
-func(1) ||
-func(2) ||
-func(3) ||
-func(4);
-
-function func(n){
-  console.log(n + "回目の関数");
-  return n==3;
-}
-```
-@box[north-east](① # 1回目の関数</br></br>)
-@box[east](② # 1回目の関数</br>2回目の関数</br>)
-@box[south-east](③ # 1回目の関数</br>2回目の関数</br>3回目の関数)
-+++
-
-```javascript
-// falseを返すまで、func(n)を実行
-func(1) &&
-func(2) &&
-func(3) &&
-func(4);
-
-function func(n){
-  console.log(n + "回目の関数");
-  return n==3;
-}
-```
-@box[north-east](① # 1回目の関数</br></br>)
-@box[east](② # 1回目の関数</br>2回目の関数</br>)
-@box[south-east](③ # 1回目の関数</br>2回目の関数</br>3回目の関数)
-
-+++
 ```
 // ■条件演算子もどき
 var isChild = true;
