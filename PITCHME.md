@@ -104,10 +104,18 @@ var a = lightFunction() || normalFuction() || heavyFunction();
 @snapend
 +++
 ```
+// ■条件演算子
+var isChild = true;
+var price = isChild ? 200 : 100;
+console.log("price -> " + price);
+
 // ■条件演算子もどき
 var isChild = true;
 var price = isChild && 200 || 100;
 console.log("price -> " + price);
+
+
+
 ```
 
 ---
