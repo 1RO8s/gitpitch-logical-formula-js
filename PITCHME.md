@@ -191,3 +191,16 @@ console.log("price -> " + price);
 @size[0.9em](短絡評価：</br>)
 @size[0.8em](　返すべき値が決まったら、後の式は評価しない。</br>)
 @snapend
+
+---
+@snap[north]
+### 参考資料
+@snapend
+
+@snap[west span-0]
+@size[1.0em](JavaScript|MDM</br>)
+[@size[0.7em](論理演算子)](https://developer.mozilla.org/ja/docs/Web/JavaScript/Reference/Operators/Logical_Operators)
+[@size[0.7em](Truthy)](https://developer.mozilla.org/ja/docs/Glossary/truthy)
+[@size[0.7em](Falsy)](https://developer.mozilla.org/ja/docs/Glossary/falsy)
+@snapend
+
