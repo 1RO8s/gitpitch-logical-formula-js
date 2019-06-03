@@ -77,13 +77,16 @@ console.log("b -> " + b);
 ```
 
 ---
+### 
+
++++
 ```javascript
 // デフォルト値の設定
 init: function(_name) {
     this.name = _name || "名無し";
 }
 ```
----
++++
 ```javascript
 // パフォーマンスの良いコード
 var a = lightFunction() || normalFuction() || heavyFunction();
@@ -99,11 +102,15 @@ var a = lightFunction() || normalFuction() || heavyFunction();
 @size[0.9em](　ANDの場合： falsyがあった時点で、その値を返す。</br>)
 @size[0.9em](　ORの場合：　truthyがあった時点で、その値を返す。</br>)
 @snapend
-
 +++
+```
+// ■条件演算子もどき
+var isChild = true;
+var price = isChild && 200 || 100;
+console.log("price -> " + price);
+```
 
 ---
-
 ```javascript
 var a = 1 && 2 && 3 && 4 && 5 && 0;
 console.log("a -> " + a);
