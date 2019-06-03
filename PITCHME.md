@@ -89,6 +89,11 @@ console.log("b -> " + b);
 init: function(_name) {
     this.name = _name || "名無し";
 }
+
+init: function(_name, _id) {
+    this.id = _id || _name || "名無し";
+}
+
 ```
 +++
 ```javascript
