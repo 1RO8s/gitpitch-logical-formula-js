@@ -113,9 +113,6 @@ console.log("price -> " + price);
 var isChild = true;
 var price = isChild && 200 || 100;
 console.log("price -> " + price);
-
-
-
 ```
 
 ---
