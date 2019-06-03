@@ -161,4 +161,9 @@ var isChild = true;
 var price = isChild && 200 || 100;
 console.log("price -> " + price);
 ```
-
+---
+### まとめ
+@snap[west]
+@size[0.8em](AND演算子：左の値がfalsyなら左の値、truthyなら右の値を返す。</br>)
+@size[0.8em](OR演算子：左の値がtruthyなら左の値、falsyなら右の値を返す。</br>)
+@snapend
