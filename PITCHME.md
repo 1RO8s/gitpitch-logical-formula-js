@@ -9,8 +9,8 @@
 
 ---
 ```javascript
-var a = 1 !== 0;
-console.log(a);
+var a = 1 == 0;
+console.log("a -> " + a);
 ```
 Note:
 
@@ -64,23 +64,23 @@ OR演算子：</br>
 ```javascript
 var a = "こんにちは" && "こんばんは";
 var b = 0 && "こんばんは";
-console.log("a -> "+a);
-console.log("b -> "+b);
+console.log("a -> " + a);
+console.log("b -> " + b);
 ```
 
 +++
 ```javascript
 var a = "こんにちは" || "こんばんは";
 var b = 0 || "こんばんは";
-console.log("a -> "+a);
-console.log("b -> "+b);
+console.log("a -> " + a);
+console.log("b -> " + b);
 ```
 
 ---
 ```javascript
 // デフォルト値の設定
-init:function(_name){
-  this.name = _name || "名無し";
+init: function(_name) {
+    this.name = _name || "名無し";
 }
 ```
 ---
@@ -106,24 +106,24 @@ var a = lightFunction() || normalFuction() || heavyFunction();
 
 ```javascript
 var a = 1 && 2 && 3 && 4 && 5 && 0;
-console.log(a);
+console.log("a -> " + a);
 ```
 +++
 ```javascript
 var a = 2 && 3 && 4 && 5 && 0;
-console.log(a);
+console.log("a -> " + a);
 ```
 
 +++
 ```javascript
 var a = 3 && 4 && 5 && 0;
-console.log(a);
+console.log("a -> " + a);
 ```
 
 +++
 ```javascript
 var a = 5 && 0;
-console.log(a);
+console.log("a -> " + a);
 ```
 
 ---
