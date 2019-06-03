@@ -95,7 +95,7 @@ var a = lightFunction() || normalFuction() || heavyFunction();
 +++
 @snap[north]
 ### 短絡評価</br>
-#### (ショートサーキット評価)
+@size[0.7em](ショートサーキット評価)
 @snapend
 
 @snap[west span-0]
