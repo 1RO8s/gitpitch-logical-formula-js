@@ -4,7 +4,7 @@
 
 @snap[midpoint span-100]
 @size[1.0em](Qiita</br>)
-@size[0.7em]([3歳娘「いつから論理式が真偽値のみを返すと錯覚していた？」](https://qiita.com/Yametaro/items/17f9b2baa67440b8664a))
+@size[0.7em]([3歳娘「いつから論理式が真偽値のみを返すと錯覚していた？」](https://qiita.com/Yametaro/items/17f9b2baa67440b8664a)</br>)
 @snapend
 
 ---
@@ -127,6 +127,9 @@ console.log(a);
 ```
 
 ---
+
+
++++
 ```javascript
 // trueを返すまで、func(n)を実行
 func(1) ||
@@ -160,9 +163,9 @@ function func(n){
 @box[east](② # 1回目の関数</br>2回目の関数</br>)
 @box[south-east](③ # 1回目の関数</br>2回目の関数</br>3回目の関数)
 
----
++++
 ```
-// ■条件演算子もどき ex)条件?trueの処理:falseの処理;
+// ■条件演算子もどき
 var isChild = true;
 var price = isChild && 200 || 100;
 console.log("price -> " + price);
