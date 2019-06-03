@@ -168,6 +168,10 @@ console.log("price -> " + price);
 
 @snap[west span-0]
 @size[0.9em](AND演算子：</br>)
-@size[0.8em](左の値がfalsyなら左の値、truthyなら右の値を返す。</br>)
-@size[0.8em](OR演算子：左の値がtruthyなら左の値、falsyなら右の値を返す。</br>)
+@size[0.8em](　左の値がfalsyなら左の値、truthyなら右の値を返す。</br>)
+@size[0.9em](OR演算子：</br>)
+@size[0.8em](　左の値がtruthyなら左の値、falsyなら右の値を返す。</br>)
+@size[0.2em](：</br>)
+@size[0.9em](短絡評価：</br>)
+@size[0.8em](　返すべき値が決まったら、後の式は評価しない。</br>)
 @snapend
